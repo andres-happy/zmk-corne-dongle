@@ -23,8 +23,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - H
-  - J
+  - Y
+  - Y
   - K
   - L
   - {t: ;, s: ':'}
