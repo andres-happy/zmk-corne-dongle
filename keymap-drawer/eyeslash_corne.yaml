@@ -196,7 +196,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  NUM PAD:
+  NUM_PAD:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 1
   - KP 1

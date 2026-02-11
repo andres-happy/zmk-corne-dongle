@@ -1347,8 +1347,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1274)" class="layer-NUM PAD">
-<text x="0" y="28" class="label" id="NUM-PAD">NUM PAD:</text>
+<g transform="translate(40, 1274)" class="layer-NUM_PAD">
+<text x="0" y="28" class="label" id="NUM_PAD">NUM_PAD:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
