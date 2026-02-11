@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
         
@@ -44,7 +44,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_4_TOGGLE";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
             bindings = <&mo 1>, <&tog NUM_PAD>;
         };
     };
