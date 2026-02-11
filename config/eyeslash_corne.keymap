@@ -37,7 +37,7 @@
             tapping-term-ms = <250>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-        {
+        
         td_fn_toggle: td_fn_toggle {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_FN_TOGGLE";
