@@ -38,9 +38,9 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
         
-        td_fn_toggle: td_fn_toggle {
+        td_toggle: td_toggle {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_FN_TOGGLE";
+            label = "TD_4_TOGGLE";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             bindings = <&mo 1>, <&tog 4>;
@@ -66,10 +66,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q  &kp W    &kp E     &kp R          &kp T                              &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S    &kp D     &kp F          &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X    &kp C     &kp V          &kp B       &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                           &kp LGUI  &td_fn_toggle  &lt 3 SPACE                                              &lt 3 ENTER  &mo 2  &kp LALT
+&kp TAB    &kp Q  &kp W    &kp E     &kp R       &kp T                              &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&td0       &kp A  &kp S    &kp D     &kp F       &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z  &kp X    &kp C     &kp V       &kp B       &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                           &kp LGUI  &td_toggle  &lt 3 SPACE                                              &lt 3 ENTER  &mo 2  &kp LALT
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
@@ -113,7 +113,7 @@
             bindings = <
         &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp MINUS  &kp ASTRK                                        &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
         &trans  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp PLUS   &kp FSLH                           &mmv MOVE_LEFT  &mkp LCLK &mmv MOVE_RIGHT      &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_0   &kp EQUAL  &kp C_MUTE                             &mmv MOVE_DOWN                      &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N0   &kp EQUAL  &kp C_MUTE                             &mmv MOVE_DOWN                      &trans  &trans  &trans  &trans  &trans  &trans
                                       &trans     &trans     &trans                                                                            &trans  &trans  &trans
                     >;
                     sensor-bindings = <&scroll_encoder>;
