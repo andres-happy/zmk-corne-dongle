@@ -113,7 +113,7 @@
             bindings = <
         &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp MINUS  &kp ASTRK                                        &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
         &trans  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp PLUS   &kp FSLH                           &mmv MOVE_LEFT  &mkp LCLK &mmv MOVE_RIGHT      &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_0   &kp EQUAL  &none                              &mmv MOVE_DOWN                      &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_0   &kp EQUAL  &kp C_MUTE                             &mmv MOVE_DOWN                      &trans  &trans  &trans  &trans  &trans  &trans
                                       &trans     &trans     &trans                                                                            &trans  &trans  &trans
                     >;
                     sensor-bindings = <&scroll_encoder>;
