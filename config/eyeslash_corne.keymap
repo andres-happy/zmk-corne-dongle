@@ -78,10 +78,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp KP_N1        &kp KP_N2       &kp KP_N3     &kp KP_N4     &kp KP_N5                                              &mmv MOVE_UP                 &kp KP_N6        &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_N0  &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                           &mmv MOVE_LEFT  &mkp LCLK &mmv MOVE_RIGHT    &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp HOME   &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &trans          &trans        &trans        &rgb_ug RGB_EFF       &kp C_MUTE                       &mmv MOVE_DOWN               &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END    &kp PG_DN
-                                         &trans        &trans        &trans                                                                              &kp INS          &kp DEL          &trans
+&trans  &kp N1           &kp N2         &kp N3        &kp N4        &kp N5                                                 &mmv MOVE_UP                &kp N6           &kp N7           &kp N8           &kp N9           &kp N0     &kp BSPC
+&trans  &bt BT_CLR_ALL   &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                           &mmv MOVE_LEFT  &mkp LCLK &mmv MOVE_RIGHT   &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp HOME   &kp PG_UP
+&trans  &rgb_ug RGB_OFF  &trans         &trans        &trans        &rgb_ug RGB_EFF       &kp C_MUTE                       &mmv MOVE_DOWN              &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END    &kp PG_DN
+                                        &trans        &trans        &trans                                                                             &kp INS          &kp DEL          &trans
             >;
             sensor-bindings = <&scroll_encoder>;
         };
@@ -112,9 +112,9 @@
         layer_4 {
             display-name = "NUM_PAD";
             bindings = <
-        &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp MINUS  &kp FSLH                                            &mmv MOVE_UP                     &kp A   &trans  &trans  &trans  &trans  &trans
-        &trans  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp PLUS   &kp ASTRK                           &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT   &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N0  &kp EQUAL  &kp C_MUTE                               &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp MINUS  &kp FSLH                                            &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp PLUS   &kp ASTRK                           &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT   &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp HOME   &kp PG_UP
+        &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N0  &kp EQUAL  &kp C_MUTE                               &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &kp END   &kp PG_DN
                                       &trans     &trans     &trans                                                                               &trans  &trans  &trans
                     >;
                     sensor-bindings = <&scroll_encoder>;
